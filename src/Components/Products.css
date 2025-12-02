@@ -1,0 +1,30 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.products{
+    padding: 2vw 2vw;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.card{
+    height: 70vh;
+    border-radius: 5px;
+    width: 400px;
+    border: 1px solid #E5E5E5;
+}
+.image-card{
+    height: 60%;
+    width: 100%; 
+    padding: 1vw;
+}
+.text-card{
+    height: auto;
+    padding: 1vw;
+}

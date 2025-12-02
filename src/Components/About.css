@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.about{
+    padding: 2vw;
+    /* padding-right: 20%; */
+}
+.about h2{
+    font-size: 40px;
+}
+.about h3{
+    font-size: 30px;
+}
+.about p{
+    font-size: 20px;
+    /* background-color: #E5E5E5; */
+    line-height: 2;
+    
+    color: #14213D;
+}
+.about div{
+    background-color: #E5E5E5;
+    padding: 2vw;
+    border-radius: 1vw;
+}

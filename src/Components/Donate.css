@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.donate{
+    padding: 5% 10%;
+}
+.upload{
+    /* height: 90vh; */
+    background-color: aliceblue;
+    padding: 2vw;
+    border-radius: 20px;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upload input{
+    height: 50px;
+    width: 300px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 20px;
+
+}
+.upload label{
+    font-size: 25px;
+}
+.upload div{
+    align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.upload textarea{
+    height: 200px;
+    width:white;
+    max-width: 300px;
+    height: 250px;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.upload h2{
+    font-size: 30px;
+    color:#14213D;
+}
+@media (max-width : 800px){
+    .upload div{
+        display: flex;
+        flex-direction: column;
+    }
+    .donate{
+    padding: 2% 5%;
+}
+}
+@media (max-width : 500px){
+.upload input{
+    height: 50px;
+    width: 95%;
+}
+.upload label{
+    font-size: 20px;
+}
+.upload h2{
+    font-size: 20px;
+}
+}

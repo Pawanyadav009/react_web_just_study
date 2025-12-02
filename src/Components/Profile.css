@@ -1,0 +1,42 @@
+.profile, .editprofile{
+    margin: 2vw 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+.button-profile{
+
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none;
+    color: #0241ca;
+    background-color: white;
+    border: 2px solid #0241ca;
+    margin: 1vw;
+    transition-duration: 500ms;
+
+}
+.button-profile:hover{
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #0241ca;
+}
+.editprofile input{
+    height: 50px;
+    border-radius: 25px;
+    width: 400px;
+    outline: none;
+    border-color: grey;
+    padding-left: 2vw;
+}
+.editprofile label{
+    font-size: 25px;
+    margin-left: 1vw;
+}

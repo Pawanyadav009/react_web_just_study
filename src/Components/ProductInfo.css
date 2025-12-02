@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.cantainer{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.other-data{
+    height: 30VH;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 2vw;
+    border: 1vw solid #E5E5E5;
+    height: auto;
+}
+.othercards{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+.details{
+    padding: 2vw;
+    border: 1vw solid #E5E5E5;
+
+
+
+}
+.video{
+        border: 1vw solid #E5E5E5;
+        height: 60vh;
+
+}
+.othercards{
+    margin-top: 1vw;
+    /* height: 60vh; */
+    border: 1vw solid #E5E5E5;
+
+}
+.other-data a{
+color: blue;
+}
+.details a{
+    color: blue;
+    text-decoration: underline;
+}
+.details li{
+    margin-left: 2vw;
+}

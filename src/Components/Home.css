@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.main{
+    height: 80vh;
+    background-image: url(main5.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 15%;
+    gap: 2vw;
+    background-size: cover;
+}
+.main h2{
+    font-size: 40px;
+    color: white;
+
+}
+.main p{
+    font-size: 20px;
+    line-height: 2;
+    color: #565555;
+}
+
+.download-section{
+    /* height: 60vw; */
+    display: flex;
+    padding: 2vw;
+    background-color: #E5E5E5;
+    gap: 2vw;
+}
+.download-section div{
+    width: 50%;
+}
+.text-download{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+.text-download h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FCA311;
+}
+.text-download p{
+    font-size: 15px;
+    line-height: 2;
+}
+
+.cards-area{
+    padding: 2vw;
+        background-color: white;
+
+
+
+}
+.card-area2{
+white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.card-Main{
+    margin: 0 1vw;
+    /* height: 100%; */
+    height: 60vh;
+
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+        background-color: #E5E5E5;
+
+
+}
+.card-image{
+    height: 60%;
+    width: 100%;
+}
+.text-card-main{
+    height: 30%;
+    width: 100%;
+    padding: 1vw;
+
+}
+.text-card-main p{
+    margin: 10px 0;
+}
+
+.Help-section{
+    /* height: 90vh; */
+    width: 96%;
+    margin: 2%;
+    background-image: url(main3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 15%;
+    gap: 2vw;
+}
+.Help-section p{
+    color: white;
+    font-size: 15px;
+}
+.Help-section h2{
+    font-size: 30px;
+    color: #FCA311;
+}
+
+@media (max-width : 800px){
+    .main h2{
+    font-size: 30px;
+
+}
+.main p{
+    font-size: 15px;
+}
+.main{
+    height: 60vh;
+}
+.text-download h3{
+font-size: 15px;
+}
+.text-download p{
+    font-size: 12px;
+}
+}
+@media (max-width:700px){
+    .download-section{
+        flex-direction: column;
+    }
+    .download-section div{
+    width: 100%;
+}
+}
+@media (max-width : 550px){
+.main h2{
+    font-size: 20px;
+
+}
+.main p{
+    font-size: 12px;
+}
+.main{
+    height: 60vh;
+}
+}
