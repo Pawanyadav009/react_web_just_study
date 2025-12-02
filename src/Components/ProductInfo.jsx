@@ -3,7 +3,7 @@ import Header from "./Header"
 import Footer from './Footer'
 import { useParams } from 'react-router-dom'
 import Datalist from './Datalist'
-import StudyCards from './studycards'
+import StudyCards from './StudyCards'
 
 const ProductInfo = ()=>{
 
