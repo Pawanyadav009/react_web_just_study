@@ -3,7 +3,7 @@ import { Link, Navigate } from "react-router-dom"
 import './Products.css'
 import './Button.css'
 import Footer from "./Footer"
-import StudyCards from "./studycards"
+import StudyCards from "./StudyCards"
 const Products =()=>{
     const isLoggedin = true;
 
